@@ -1,31 +1,31 @@
 export const categories = [
   {
     id: 3,
-    name: 'Cookies',
+    name: 'Breakfast',
     photo_url:
-    'https://www.telegraph.co.uk/content/dam/Travel/2019/January/france-food.jpg?imwidth=1400'
+    'https://media.istockphoto.com/id/1292563627/photo/assorted-south-indian-breakfast-foods-on-wooden-background-ghee-dosa-uttappam-medhu-vada.jpg?s=612x612&w=0&k=20&c=HvuYT3RiWj5YsvP2_pJrSWIcZUXhnTKqjKhdN3j_SgY='
   },
   {
     id: 1,
-    name: 'Mexican Food',
-    photo_url: 'https://ak1.picdn.net/shutterstock/videos/19498861/thumb/1.jpg'
+    name: 'Main Course',
+    photo_url: 'https://img.freepik.com/premium-photo/indian-lunch-dinner-main-course-food-group-includes-paneer-butter-masala-dal-makhani-palak-paneer-roti-rice-etc-selective-focus_466689-6799.jpg'
   },
   {
     id: 2,
-    name: 'Italian Food',
+    name: 'Snacks',
     photo_url:
-      'https://images.unsplash.com/photo-1533777324565-a040eb52facd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80'
+      'https://www.saveur.com/uploads/2019/03/18/3UNXFYJBBR7TM4Z3HZENXOCVMM.jpg?auto=webp&auto=webp&optimize=high&quality=70&width=1440'
   },
   {
     id: 4,
-    name: 'Smoothies',
+    name: 'Desserts',
     photo_url:
-    'https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/still-life-of-three-fresh-smoothies-in-front-of-royalty-free-image-561093647-1544042068.jpg?crop=0.715xw:0.534xh;0.0945xw,0.451xh&resize=768:*'
+    'https://www.shutterstock.com/image-photo/group-indian-assorted-sweets-mithai-260nw-2068990322.jpg'
   },
   {
     id: 0,
-    name: 'Pizza',
-    photo_url: 'https://media.istockphoto.com/id/1442417585/photo/person-getting-a-piece-of-cheesy-pepperoni-pizza.jpg?s=612x612&w=0&k=20&c=k60TjxKIOIxJpd4F4yLMVjsniB4W1BpEV4Mi_nb4uJU='
+    name: 'Drinks',
+    photo_url: 'https://fruitjuicesciencecentre.eu//storage/files/269fa21f-e822-44c0-ae21-fecbebb22cf3/header_green_small_5-reasons.jpg'
   },
 ];
 
@@ -33,293 +33,303 @@ export const recipes = [
   {
     recipeId: 122,
     categoryId: 3,
-    title: 'Oatmeal Cookies',
-    photo_url: 'https://sugarspunrun.com/wp-content/uploads/2023/12/Oatmeal-cookies-1-of-1-2.jpg',
+    title: 'Poha',
+    photo_url: 'https://www.indianveggiedelight.com/wp-content/uploads/2022/07/poha-recipe-featured.jpg',
     photosArray: [
-      'https://www.budgetbytes.com/wp-content/uploads/2024/01/Oatmeal-Cookies-Plated.jpg',
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQG79947EgHLUO4DYNcUZjQP3Z4Gq2WvejP9Q&s",
-      'https://lovingitvegan.com/wp-content/uploads/2021/10/Vegan-Oatmeal-Cookies-Square-480x270.jpg',
-      'https://img.thedailybeast.com/image/upload/c_crop,d_placeholder_euli9k,h_1439,w_2560,x_0,y_0/dpr_1.5/c_limit,w_1044/fl_lossy,q_auto/v1492718105/articles/2013/09/24/burger-king-s-new-french-fries-took-ten-years-to-develop/130923-gross-burger-tease_izz59e',
-      'https://aht.seriouseats.com/images/2012/02/20120221-193971-fast-food-fries-Burger-King-fries-2.jpg'
+      'https://www.tasty-indian-recipes.com/wp-content/uploads/2022/01/Poha-1.jpg',
+      'https://www.cookwithkushi.com/wp-content/uploads/2020/09/Poha-recipe.jpg',
+      'https://www.sanjeevkapoor.com/Uploads/Recipe/Poha.jpg',
+      'https://static.toiimg.com/thumb/msid-74752218,width-1280,height-720,quality-70,overlay-toi_swiggy/photo.jpg',
+      'https://www.vegrecipesofindia.com/wp-content/uploads/2020/03/poha-recipe-1.jpg'
     ],
-    time: '15',
-    ingredients: [[0, '200ml'], [1, '5g'], [2, '300g']],
-    description:
-      '-- Start with cleaned and peeled russet potatoes that you have cut into 3/8-inch match sticks. Place in bowl of very cold water: keep rinsing and changing the water until the water is clear; drain thoroughly and dry with paper towels or a clean lint-free kitchen towel.\n\n -- Meanwhile, you preheat your hot oil to 350 degrees F. Place prepared taters in oil and cook about 5 minutes. They will have that blond-tone color to them. \n\n -- Note: Once you add cold potatoes to the hot oil, the temperature of your oil is going to drop - you want it to be somewhere between 330 - 325 degrees F. \n\n -- Remove from oil; drain and cool. Now - either refrigerate until ready to finish cooking, or cool completely and freeze up to 3 months. To freeze properly - place completely cooled fries in single layer on tray and place in freezer until frozen. Then bag them.\n\n -- To finish cooking - preheat your oil to 400* F. Add your cold fries (which will drop the oil temp - which is fine because you want it near the 375 degrees F. temp) and cook a few minutes until done. Lightly salt them and shake well so that the salt distributes well and they are not salty.'
-  },
-  {
-    recipeId: 3,
-    categoryId: 4,
-    title: 'Triple Berry Smoothie',
-    photo_url:
-      'https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/delish-how-to-make-a-smoothie-horizontal-1542310071.png?crop=0.803xw:0.923xh;0.116xw,0.00510xh&resize=768:*',
-    photosArray: [
-      'https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/delish-how-to-make-a-smoothie-horizontal-1542310071.png?crop=0.803xw:0.923xh;0.116xw,0.00510xh&resize=768:*',
-      'https://www.vitamix.com/media/other/images/xVitamix-Triple-Berry-Smoothie-square-crop__1.jpg.pagespeed.ic.OgTC3ILD3R.jpg',
-      'http://images.media-allrecipes.com/userphotos/960x960/3798204.jpg',
-      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrzui8MM6W66I29VZwVvcjpGv99JW3O1owgupc3KwB65rhAyrZ'
-    ],
-    time: '10',
+    time: '20',
     ingredients: [
-      [59, '1'],
-      [60, '1/2 lbs'],
-      [61, '1/2 liters'],
-    ],
-    description: 'In a blender, combine all ingredients and blend until smooth. Then divide between 2 cups and top with blackberries, if desired.'
-  },
-  {
-    recipeId: 2,
-    categoryId: 3,
-    title: 'Vegan Cookies',
-    photo_url: 'https://myquietkitchen.com/wp-content/uploads/2021/02/vegan-breakfast-cookies.jpg',
-    photosArray: [
-      'https://www.texanerin.com/content/uploads/2018/06/no-bake-lactation-cookies-1-650x975.jpg',
-      'https://ichef.bbci.co.uk/news/660/cpsprodpb/B2C0/production/_106106754_vegnuggets976.jpg',
-      'https://pixel.nymag.com/imgs/daily/grub/2017/11/22/22-mcds-chicken-tenders.w330.h330.jpg',
-      'https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fcdn-img.health.com%2Fsites%2Fdefault%2Ffiles%2Fstyles%2Flarge_16_9%2Fpublic%2Fstyles%2Fmain%2Fpublic%2Fgettyimages-508510211.jpg%3Fitok%3Dh-Uryi8r&w=400&c=sc&poi=face&q=85'
-    ],
-    time: '30',
-    ingredients: [
-      [0, '2 quarts'],
-      [16, '1'],
-      [12, '1 cup'],
-      [18, '1 cup'],
-      [19, '1 teaspoon'],
-      [1, '2 teaspoons'],
-      [4, '1/4 teaspoons'],
-      [7, '1/8 teaspoons'],
-      [20, '1/2 teaspoons'],
-      [21, '4']
+      [0, '1 cup'],
+      [1, '1 tbsp'],
+      [2, '1/2 tsp'],
+      [3, '1/4 cup'],
+      [4, '1/2 tsp'],
+      [5, '1 tbsp'],
+      [6, '1 tbsp']
     ],
     description:
-      '-- Beat the egg and then combine it with water in a bowl. Stir. Combine the flour, salt, MSG, pepper, onion powder and garlic powder in a gallon size zip lock bag. Pound each of the breast filets until about 1/4-inch thick. Then cut into bite sized pieces. Coat each piece with the flour mixture by shaking in the zip lock bag. Remove and coat in the egg mixture. Then coat in the flour mixture again. Shake to coat. Deep fry at 375 degrees for 10-12 minutes, until browned and crispy.'
-  },
+      '-- Heat oil in a pan, add mustard seeds and allow them to crackle. Then add curry leaves and green chilies.\n\n -- Add chopped onions and sauté till they turn golden brown.\n\n -- Add turmeric powder and mix well.\n\n -- Add washed poha (flattened rice) and mix carefully so the poha doesn’t break.\n\n -- Sprinkle salt, sugar, and a bit of lemon juice. Stir well and cook for 3–4 minutes.\n\n -- Garnish with coriander leaves and serve hot with a side of yogurt or chutney.'
+  },  
   {
-    recipeId: 3,
+    recipeId: 124,
     categoryId: 3,
-    title: 'Pumpkin Spice Cookies',
-    photo_url:
-      'https://themindfulmeringue.com/wp-content/uploads/2023/09/pumpkin-spice-cookies-12-scaled.jpg',
+    title: 'Masala Dosa',
+    photo_url: 'https://www.cookwithmanali.com/wp-content/uploads/2020/05/Masala-Dosa.jpg',
     photosArray: [
-      'https://www.texanerin.com/content/uploads/2018/11/pumpkin-spice-cookies-4-650x975.jpg',
-      'https://cdn.junglecreations.com/wp/junglecms/2018/07/4164c5bd-wide-thumbnail.jpg',
-      'https://pinchofyum.com/wp-content/uploads/Crunchwrap-Inside.jpg',
-      'https://monsonmadethis.com/wp-content/uploads/2017/10/IMG_20171015_161017_025-e1533869302263.jpg'
+      'https://www.vegrecipesofindia.com/wp-content/uploads/2021/01/masala-dosa.jpg',
+      'https://www.cookwithkushi.com/wp-content/uploads/2021/03/masala-dosa-recipe.jpg',
+      'https://www.sanjeevkapoor.com/Uploads/Recipe/masala-dosa.jpg',
+      'https://static.toiimg.com/thumb/msid-84965153,width-800,height-600,quality-70,overlay-toi_swiggy/photo.jpg',
+      'https://www.tasty-indian-recipes.com/wp-content/uploads/2020/01/masala-dosa.jpg'
     ],
     time: '45',
     ingredients: [
-      [0, '2 tablespoons'],
-      [22, '1/2'],
-      [23, '2 tablespoons'],
-      [7, '2 cloves'],
-      [3, '1 teaspoon'],
-      [24, '1 tablespoon'],
-      [25, '1 lb'],
-      [1, '2 teaspoons'],
-      [4, '2 teaspoons'],
-      [26, '15 oz'],
-      [27, '8'],
-      [28, '2'],
-      [29, '1 cup']
+      [0, '1 cup'],
+      [1, '1/2 cup'],
+      [2, '1 tbsp'],
+      [3, '1/4 tsp'],
+      [4, '2 tbsp'],
+      [5, '1/4 cup'],
+      [6, '1/2 tsp'],
+      [7, '1 tbsp']
     ],
     description:
-      '-- In a medium pot over medium heat, heat 1 tablespoon oil. Add onion and cook until soft, 5 minutes. Add garlic and cook until fragrant, 1 minute more. Add tomato paste and stir to coat onion and garlic. Add ground beef and cook, breaking up meat with a wooden spoon, until no longer pink, 6 minutes. Drain fat.\n\n -- Return beef to pot and season with chili powder, paprika, salt, and pepper. Add tomato sauce and kidney beans. Bring to a boil, then reduce heat and let simmer 15 minutes. Add some chili to center of each tortilla, leaving room to fold in edges. Top with Fritos, then cheddar. Fold edges of tortillas toward the center, creating pleats. Invert Crunchwraps so pleats are on the bottom and stay together.\n\n -- In medium skillet over medium heat, heat remaining tablespoon oil. Add a Crunchwrap seam side down and cook until tortilla is golden, 3 to 5 minutes per side. Repeat with remaining Crunchwraps'
-  },
+      '-- Soak the rice and urad dal separately for 6-8 hours. Grind them together into a smooth batter and ferment overnight.\n\n -- Prepare the masala by cooking boiled potatoes with mustard seeds, curry leaves, and spices.\n\n -- Heat a non-stick griddle and pour a ladle of batter, spreading it into a thin circle.\n\n -- Cook until crispy, then place the potato filling and fold the dosa. Serve with coconut chutney and sambar.'
+  }
+  ,
   {
-    recipeId: 1,
+    recipeId: 123,
     categoryId: 3,
-    title: 'Brownies',
-    photo_url: 'https://www.texanerin.com/content/uploads/2018/01/coconut-flour-brownies-1-650x975.jpg',
+    title: 'Aloo Paratha',
+    photo_url: 'https://pipingpotcurry.com/wp-content/uploads/2022/11/Aloo-Paratha-Piping-Pot-Curry.jpg',
     photosArray: [
-      'https://www.texanerin.com/content/uploads/2018/01/coconut-flour-brownies-1-650x975.jpg',
-      'https://images-gmi-pmc.edge-generalmills.com/6fbc6859-e2b1-499d-b0fa-ada600c9cc3f.jpg',
-      'http://www.recipe4living.com/assets/itemimages/400/400/3/83c29ac7418067c2e74f31c8abdd5a43_477607049.jpg',
-      'https://www.franchisechatter.com/wp-content/uploads/2014/08/KFC-Photo-by-James.jpg'
+      'https://www.indianhealthyrecipes.com/wp-content/uploads/2022/01/aloo-paratha-recipe.jpg',
+      'https://www.cookwithkushi.com/wp-content/uploads/2021/11/aloo-paratha.jpg',
+      'https://static.toiimg.com/thumb/msid-74584673,width-800,height-600,quality-70,overlay-toi_swiggy/photo.jpg',
+      'https://www.archanaskitchen.com/images/archanaskitchen/1-Author/Aloo-Paratha-Recipe.jpg',
+      'https://www.tasty-indian-recipes.com/wp-content/uploads/2020/01/Stuffed-Aloo-Paratha.jpg'
     ],
     time: '30',
     ingredients: [
-      [1, '2 tablespoons'],
-      [3, '1 tablespoon'],
-      [4, '1 teaspoon'],
-      [5, '1/2 teaspoons'],
-      [6, '1/2 teaspoons'],
-      [7, '1/2 teaspoons'],
-      [8, '1/2 teaspoons'],
-      [9, '1/2 teaspoons'],
-      [10, '1/2 teaspoons'],
-      [11, '1/2 teaspoons'],
-      [12, '1/2 cups'],
-      [13, '1 tablespoon'],
-      [14, '1 tablespoon'],
-      [15, '2 breasts, 2 thighs, 2 drumsticks, 2 wings'],
-      [16, '1'],
-      [17, '2 quarts']
+      [0, '2 cups'],
+      [1, '1 tsp'],
+      [2, '1/2 tsp'],
+      [3, '1/2 tsp'],
+      [4, '1 tbsp'],
+      [5, '2 tbsp'],
+      [6, '1 tbsp'],
+      [7, '1 tbsp'],
+      [8, '1/2 tsp']
     ],
     description:
-      '-- Preheat fryer to 350°F. Thoroughly mix together all spices. Combine spices with flour, brown sugar and salt. Dip chicken pieces in egg white to lightly coat them, then transfer to flour mixture. Turn a few times and make sure the flour mix is really stuck to the chicken.\n\n -- Repeat with all the chicken pieces. Let chicken pieces rest for 5 minutes so crust has a chance to dry a bit. Fry chicken in batches. Breasts and wings should take 12-14 minutes, and legs and thighs will need a few more minutes. Chicken pieces are done when a meat thermometer inserted into the thickest part reads 165°F. Let chicken drain on a few paper towels when it comes out of the fryer. Serve hot.'
+      '-- Prepare the dough by mixing whole wheat flour, salt, and water until smooth.\n\n -- For the stuffing, mash boiled potatoes and mix with spices, onions, and coriander.\n\n -- Roll out dough balls into flat circles, place the stuffing in the center, and roll again.\n\n -- Cook the stuffed parathas on a hot griddle with ghee until golden and crispy on both sides. Serve with yogurt or pickle.'
+  }
+  ,
+  {
+    recipeId: 125,
+    categoryId: 3,
+    title: 'Upma',
+    photo_url: 'https://rakskitchen.net/wp-content/uploads/2013/02/upma-recipe-feat.jpg',
+    photosArray: [
+      'https://www.vegrecipesofindia.com/wp-content/uploads/2020/12/upma-recipe.jpg',
+      'https://www.tasty-indian-recipes.com/wp-content/uploads/2021/01/upma-recipe.jpg',
+      'https://www.sanjeevkapoor.com/Uploads/Recipe/upma.jpg',
+      'https://static.toiimg.com/thumb/msid-74821458,width-800,height-600,quality-70,overlay-toi_swiggy/photo.jpg',
+      'https://www.indianhealthyrecipes.com/wp-content/uploads/2022/01/upma-recipe-2.jpg'
+    ],
+    time: '20',
+    ingredients: [
+      [0, '1 cup'],
+      [1, '2 tbsp'],
+      [2, '1/2 tsp'],
+      [3, '1 tsp'],
+      [4, '1 tbsp'],
+      [5, '1/4 cup'],
+      [6, '1/2 tsp'],
+      [7, '1/2 tsp']
+    ],
+    description:
+      '-- Heat oil in a pan, add mustard seeds, urad dal, and curry leaves. Once they crackle, add chopped onions and cook until soft.\n\n -- Add ginger, green chilies, and roasted semolina (rava) and sauté for a minute.\n\n -- Add water, salt, and cook until the mixture thickens.\n\n -- Garnish with coriander leaves and serve with coconut chutney.'
+  },
+  {
+    recipeId: 127,
+    categoryId: 1,
+    title: 'Chole (Chickpea Curry)',
+    photo_url: 'https://www.cookwithmanali.com/wp-content/uploads/2023/04/Punjabi-Chole-Masala.jpg',
+    photosArray: [
+      'https://www.indianhealthyrecipes.com/wp-content/uploads/2021/02/chole-recipe.jpg',
+      'https://www.cookwithkushi.com/wp-content/uploads/2021/05/chole.jpg',
+      'https://static.toiimg.com/thumb/msid-84238315,width-800,height-600,quality-70,overlay-toi_swiggy/photo.jpg',
+      'https://www.archanaskitchen.com/images/archanaskitchen/1-Author/Chole-recipe.jpg',
+      'https://www.tasty-indian-recipes.com/wp-content/uploads/2020/01/chole-recipe.jpg'
+    ],
+    time: '40',
+    ingredients: [
+      [0, '2 cups'],
+      [1, '1 tbsp'],
+      [2, '1/2 tsp'],
+      [3, '1 tsp'],
+      [4, '1 tbsp'],
+      [5, '1/2 tsp'],
+      [6, '1 tbsp'],
+      [7, '2 tbsp'],
+      [8, '1/2 tsp']
+    ],
+    description:
+      '-- Soak chickpeas overnight and pressure cook them with water, salt, and a pinch of turmeric.\n\n -- Heat oil, add cumin seeds, onions, and cook until golden. Add tomatoes, ginger, garlic, and spices. Cook until oil separates from the masala.\n\n -- Add cooked chickpeas, water, and simmer to blend the flavors.\n\n -- Garnish with coriander leaves and serve hot with bhature, rice, or roti.'
   },
   {
     recipeId: 4,
     categoryId: 1,
-    title: 'Perfect Fish Tacos',
-    photo_url: 'https://hips.hearstapps.com/hmg-prod/images/190307-fish-tacos-112-1553283299.jpg',
+    title: 'Paneer Butter Masala',
+    photo_url: 'https://j6e2i8c9.rocketcdn.me/wp-content/uploads/2020/12/Paneer-butter-masala-recipe-3.jpg',
     photosArray: [
-      'http://d2814mmsvlryp1.cloudfront.net/wp-content/uploads/2014/04/WGC-Fish-Tacos-copy-2.jpg',
-      'https://thecozyapron.com/wp-content/uploads/2018/03/baja-fish-tacos_thecozyapron_1.jpg',
-      'https://www.simplyrecipes.com/wp-content/uploads/2017/06/2017-07-22-FishTacos-6.jpg'
+      'https://www.vegrecipesofindia.com/wp-content/uploads/2021/11/paneer-butter-masala-recipe-1.jpg',
+      'https://www.cookwithkushi.com/wp-content/uploads/2021/11/paneer-butter-masala.jpg',
+      'https://static.toiimg.com/thumb/msid-74730346,width-800,height-600,quality-70,overlay-toi_swiggy/photo.jpg',
+      'https://www.archanaskitchen.com/images/archanaskitchen/1-Author/PANEER-BUTTER-MASALA-RECIPE.jpg',
+      'https://www.tasty-indian-recipes.com/wp-content/uploads/2020/01/paneer-butter-masala.jpg'
     ],
     time: '35',
     ingredients: [
-      [30, 'jucie of 1 '],
-      [24, '2 teaspoons'],
-      [0, '3 tablespoons'],
-      [3, '1 teaspoon'],
-      [31, '1/2 teaspoons'],
-      [32, '1/2 teaspoons'],
-      [4, '2 teaspoons'],
-      [33, '1/2 lb'],
-      [27, '8'],
-      [14, '2 teasponns'],
-      [34, '1']
+      [0, '250g'],
+      [1, '1 tbsp'],
+      [2, '1/2 cup'],
+      [3, '1 tsp'],
+      [4, '2 tbsp'],
+      [5, '1 tsp'],
+      [6, '1/4 tsp'],
+      [7, '1 tbsp'],
+      [8, '1 tbsp'],
+      [9, '1/4 tsp']
     ],
     description:
-      '-- In a medium shallow bowl, whisk together olive oil, lime juice, paprika, chili powder, cumin, and cayenne. Add cod, tossing until evenly coated. Let marinate 15 minutes. Meanwhile, make slaw: In a large bowl, whisk together mayonnaise, lime juice, cilantro, and honey. Stir in cabbage, corn, and jalapeño. Season with salt and pepper.\n\n -- In a large nonstick skillet over medium-high heat, heat vegetable oil. Remove cod from marinade and season both sides of each filet with salt and pepper. Add fish flesh side-down. Cook until opaque and cooked through, 3 to 5 minutes per side.\n\n -- Let rest 5 minutes before flaking with a fork. Assemble tacos: Serve fish over grilled tortillas with corn slaw and avocado. Squeeze lime juice on top and garnish with sour cream. '
-  },
+      '-- Heat butter in a pan and add onions, ginger, garlic, and cook until golden. Then add tomatoes, spices, and cook to form a smooth gravy.\n\n -- Add paneer cubes to the gravy and simmer for a few minutes to soak in the flavors.\n\n -- Garnish with cream and serve hot with naan or rice.'
+  }
+  ,
   {
     recipeId: 5,
-    categoryId: 1,
-    title: 'Chicken Fajitas',
-    photo_url:
-      'https://tmbidigitalassetsazure.blob.core.windows.net/secure/RMS/attachments/37/1200x1200/Flavorful-Chicken-Fajitas_EXPS_GHBZ18_12540_B08_15_8b.jpg',
+    categoryId: 4,
+    title: 'Gulab Jamun',
+    photo_url: 'https://5.imimg.com/data5/SELLER/Default/2024/2/384944363/DN/MV/KT/144303146/gulab-jamun-desi-ghee-500x500.jpg',
     photosArray: [
-      'https://dadwithapan.com/wp-content/uploads/2015/07/Spicy-Chicken-Fajitas-22-1200x480.jpg',
-      'https://3.bp.blogspot.com/-X-dHj7ORF9Q/XH4ssgTuSZI/AAAAAAAAEig/E46HP9wCfdsvyJFcMTX30cw-ICep8lF9ACHMYCw/s1600/chicken-fajitas-mexican-food-id-149559-buzzerg.jpg',
-      'https://cdn-image.foodandwine.com/sites/default/files/styles/medium_2x/public/201403-xl-chipotle-chicken-fajitas.jpg?itok=ghVcI5SQ'
+      'https://www.cookwithkushi.com/wp-content/uploads/2021/06/gulab-jamun-recipe.jpg',
+      'https://static.toiimg.com/thumb/msid-83683932,width-800,height-600,quality-70,overlay-toi_swiggy/photo.jpg',
+      'https://www.archanaskitchen.com/images/archanaskitchen/1-Author/Gulab-Jamun-Recipe.jpg',
+      'https://www.indianhealthyrecipes.com/wp-content/uploads/2021/02/gulab-jamun-recipe.jpg',
+      'https://www.tasty-indian-recipes.com/wp-content/uploads/2020/01/gulab-jamun.jpg'
     ],
-    time: 35,
+    time: '30',
     ingredients: [
-      [9, '1/2 teaspoons'],
-      [0, '4 tablespoons'],
-      [1, '1/2 teaspoons'],
-      [30, '2 tablespoons'],
-      [31, '1 teaspoon'],
-      [7, '1 teaspoon'],
-      [24, '1/2 teaspoons'],
-      [3, '1/2 teaspoons'],
-      [21, '1 pound'],
-      [22, '1/2 cup'],
-      [27, '6'],
-      [36, '4'],
-      [37, '1/2'],
-      [38, '1/2']
+      [0, '200g'],
+      [1, '1 cup'],
+      [2, '1/4 tsp'],
+      [3, '1/2 cup'],
+      [4, '2 tbsp'],
+      [5, '1/4 tsp'],
+      [6, '1 tsp'],
+      [7, '1 cup']
     ],
     description:
-      '-- In a large bowl, combine 2 tablespoons oil, lemon juice and seasonings; add the chicken. Turn to coat; cover. Refrigerate for 1-4 hours In a large skillet, saute peppers and onions in remaining oil until crisp-tender. Remove and keep warm. Drain chicken, discarding marinade. In the same skillet, cook chicken over medium-high heat for 5-6 minutes or until no longer pink.\n\n -- Return pepper mixture to pan; heat through. Spoon filling down the center of tortillas; fold in half. Serve with toppings as desired.'
-  },
+      '-- Mix the milk powder, flour, baking soda, and ghee to form a smooth dough with warm milk.\n\n -- Shape the dough into small balls and fry them in ghee until golden.\n\n -- In a separate pan, make a sugar syrup with water and cardamom.\n\n -- Dip the fried gulab jamuns in the warm syrup and let them soak for a few minutes before serving.'
+  }
+  ,
   {
-    recipeId: 6,
+    recipeId: 135,
     categoryId: 2,
-    title: 'Buffalo Pizza',
-    photo_url:
-      'https://images.unsplash.com/photo-1513104890138-7c749659a591?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80',
+    title: 'Samosa',
+    photo_url: 'https://www.indianhealthyrecipes.com/wp-content/uploads/2021/12/samosa-recipe.jpg',
     photosArray: [
-      'https://www.tablefortwoblog.com/wp-content/uploads/2019/01/buffalo-chicken-pizza-recipe-photos-tablefortwoblog-3-500x500.jpg',
-      'http://pizzachoicema.com/wp-content/uploads/2018/08/Buffalo-Chicken-Pizza.jpg',
-      'https://static1.squarespace.com/static/565bb41ae4b0509ba9fdf769/t/5b9a8e80aa4a998b0be0fcf4/1536855690622/pizza.gif'
+      'https://www.indianhealthyrecipes.com/wp-content/uploads/2021/12/samosa-recipe-2.jpg',
+      'https://www.archanaskitchen.com/images/archanaskitchen/1-Author/Samosa-Recipe.jpg',
+      'https://www.cookclickndevour.com/wp-content/uploads/2020/01/samosa-recipe-2.jpg',
+      'https://www.vegrecipesofindia.com/wp-content/uploads/2020/10/vegetable-samosa.jpg',
+      'https://www.tasteofhome.com/wp-content/uploads/2021/09/samosa.jpg'
     ],
-    time: 50,
+    time: '45',
     ingredients: [
-      [39, '1 lb'],
-      [40, '1 cup'],
-      [41, '1/2 cup'],
-      [42, '1/4 cup'],
-      [43, '2 tablespoons'],
-      [44, '1/2 cup'],
-      [7, '1/4 teaspoons'],
-      [5, '1/4 teaspoons'],
-      [30, '1/4 teaspoons'],
-      [45, '2 oz'],
-      [12, 'for dusting'],
-      [4, '1/2 teaspoons'],
-      [47, '2'],
-      [46, '9 oz']
+      [0, '2 cups'],
+      [1, '2 cups'],
+      [2, '1 tsp'],
+      [3, '1 tsp'],
+      [4, '1/2 tsp'],
+      [5, '1/2 tsp'],
+      [6, '2 tbsp'],
+      [7, '1 tsp'],
+      [8, '2 tbsp']
     ],
     description:
-      '-- Place a rack in upper third of oven. Place a large cast-iron skillet on rack and preheat oven to 500° (or as high as your oven will go). Place pizza dough in a large bowl, pour a little oil over, and turn to coat. Cover bowl with plastic and let dough proof at room temperature while pan and oven heat up.\n\n -- Meanwhile, cook hot sauce, marinara sauce, and butter in a medium saucepan over medium heat, stirring occasionally, until butter is melted. Stir in cream, reduce heat to low, and simmer, stirring occasionally, until slightly thickened and warmed through, about 10 minutes. Heat 1 Tbsp. oil in a large skillet over medium-high. Add chicken, toss to coat, then add ¼ cup Buffalo sauce.\n\n -- Cook chicken, tossing occasionally, until heated through, about 2 minutes. Reduce heat and simmer, stirring often, until chicken is well coated and sauce is slightly thickened, about 5 minutes. Meanwhile, whisk yogurt, lemon juice, celery salt, garlic powder, ¼ cup blue cheese, ½ tsp. pepper, and 2 Tbsp. water in a small bowl, adding more water if sauce seems too thick (it should be pourable); set aside.\n\n -- Turn out dough onto a lightly floured work surface. Shape with your hands into a round that’s slightly larger than the cast-iron skillet you’re using. Take hot skillet out of oven (watch that handle!) and place on a heatproof surface. Add a little flour to pan. Lay dough in skillet, then work edges of dough up sides of skillet with your fingertips (use a rubber spatula or wooden spoon if you’re nervous about touching the hot pan). Drizzle a little oil around inside edge of pan so that it trickles behind and underneath dough, which will encourage browning and help it release.\n\n -- Spread about ⅓ cup Buffalo sauce over dough. Arrange mozzarella over, then top with remaining ¼ cup blue cheese. Arrange chicken mixture on top. Bake pizza on top rack until crust and cheese are nicely browned, 15–20 minutes. Transfer skillet to stovetop (again, watch that handle!) and let pizza rest a few minutes. Using a spatula, slide pizza onto a cutting board or platter. Arrange celery over, then top with reserved blue cheese dressing. Season with pepper, then drizzle with oil.'
+      '-- Prepare the filling by cooking potatoes and vegetables with spices until soft.\n\n -- Prepare the dough by mixing flour, salt, and oil. Roll into thin sheets and shape into cones.\n\n -- Stuff the filling into cones, seal, and deep fry until golden brown.'
   },
   {
     recipeId: 0,
     categoryId: 0,
-    title: 'Classic Lasagna',
-    photo_url: 'https://t3.ftcdn.net/jpg/01/00/52/14/360_F_100521407_15ViliDWGLkB1N6Lwh5DQg9MePJa5tbw.jpg',
+    title: 'Masala Chai',
+    photo_url: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9r1c8ZjN_5Z1jvOvnKxQyemwbOXLZA6XVcw&s',
     photosArray: [
-      "https://namelymarly.com/wp-content/uploads/2018/04/20180415_Beet_Lasagna_10.jpg",
-      'https://advancelocal-adapter-image-uploads.s3.amazonaws.com/image.al.com/home/bama-media/width600/img/news_impact/photo/burger-fijpg-57e7e5907630c2ad.jpg',
-      'https://img.thedailybeast.com/image/upload/c_crop,d_placeholder_euli9k,h_1439,w_2560,x_0,y_0/dpr_1.5/c_limit,w_1044/fl_lossy,q_auto/v1492718105/articles/2013/09/24/burger-king-s-new-french-fries-took-ten-years-to-develop/130923-gross-burger-tease_izz59e',
-      'https://aht.seriouseats.com/images/2012/02/20120221-193971-fast-food-fries-Burger-King-fries-2.jpg'
+      'https://www.indianhealthyrecipes.com/wp-content/uploads/2021/11/masala-chai-recipe-1.jpg',
+      'https://www.archanaskitchen.com/images/archanaskitchen/1-Author/Masala-Chai-Recipe.jpg',
+      'https://www.cookwithkushi.com/wp-content/uploads/2021/07/masala-chai.jpg',
+      'https://www.cookclickndevour.com/wp-content/uploads/2020/01/masala-chai-recipe-3.jpg',
+      'https://www.tasteofhome.com/wp-content/uploads/2021/09/Chai_Tea_FTR.jpg'
     ],
-    time: '15',
-    ingredients: [[0, '200ml'], [1, '5g'], [2, '300g']],
-    description:
-      '-- Start with cleaned and peeled russet potatoes that you have cut into 3/8-inch match sticks. Place in bowl of very cold water: keep rinsing and changing the water until the water is clear; drain thoroughly and dry with paper towels or a clean lint-free kitchen towel.\n\n -- Meanwhile, you preheat your hot oil to 350 degrees F. Place prepared taters in oil and cook about 5 minutes. They will have that blond-tone color to them. \n\n -- Note: Once you add cold potatoes to the hot oil, the temperature of your oil is going to drop - you want it to be somewhere between 330 - 325 degrees F. \n\n -- Remove from oil; drain and cool. Now - either refrigerate until ready to finish cooking, or cool completely and freeze up to 3 months. To freeze properly - place completely cooled fries in single layer on tray and place in freezer until frozen. Then bag them.\n\n -- To finish cooking - preheat your oil to 400* F. Add your cold fries (which will drop the oil temp - which is fine because you want it near the 375 degrees F. temp) and cook a few minutes until done. Lightly salt them and shake well so that the salt distributes well and they are not salty.'
-  },
-  {
-    recipeId: 7,
-    categoryId: 2,
-    title: 'Spaghetti Carbonara',
-    photo_url: 'https://www.sipandfeast.com/wp-content/uploads/2022/09/spaghetti-carbonara-recipe-snippet.jpg',
-    photosArray: [
-      'https://ak3.picdn.net/shutterstock/videos/10431533/thumb/10.jpg',
-      'https://www.kcet.org/sites/kl/files/styles/kl_image_large/public/thumbnails/image/square_hero_desktop_2x_sfs_spaghetti_carbonara_clr-3.jpg?itok=T-rsBDIZ',
-      'https://cdn-image.foodandwine.com/sites/default/files/HD-201104-r-spaghetti-with-anchovy.jpg'
-    ],
-    time: 15,
+    time: '10',
     ingredients: [
-      [48, '50g'],
-      [49, '100g'],
-      [50, '350g'],
-      [51, '2 plump'],
-      [42, '50g'],
-      [16, '3'],
-      [1, '2 teaspoons'],
-      [4, '2 teaspoons']
+      [0, '2 cups'],
+      [1, '1 tsp'],
+      [2, '1 tsp'],
+      [3, '1/4 tsp'],
+      [4, '1/4 tsp'],
+      [5, '1/2 inch'],
+      [6, '1-2 tsp'],
+      [7, '2 tsp'],
+      [8, '1-2 tsp']
     ],
     description:
-      '-- Put the egg yolks into a bowl, finely grate in the Parmesan, season with pepper, then mix well with a fork and put to one side. Cut any hard skin off the pancetta and set aside, then chop the meat. Cook the spaghetti in a large pan of boiling salted water until al dente.\n\n -- Meanwhile, rub the pancetta skin, if you have any, all over the base of a medium frying pan (this will add fantastic flavour, or use 1 tablespoon of oil instead), then place over a medium-high heat. Peel the garlic, then crush with the palm of your hand, add it to the pan and leave it to flavour the fat for 1 minute. Stir in the pancetta, then cook for 4 minutes, or until it starts to crisp up. Pick out and discard the garlic from the pan, then, reserving some of the cooking water, drain and add the spaghetti.\n\n -- Toss well over the heat so it really soaks up all that lovely flavour, then remove the pan from the heat. Add a splash of the cooking water and toss well, season with pepper, then pour in the egg mixture – the pan will help to cook the egg gently, rather than scrambling it. Toss well, adding more cooking water until it’s lovely and glossy. Serve with a grating of Parmesan and an extra twist of pepper.'
-  },
-  {
-    recipeId: 8,
-    categoryId: 2,
-    title: 'Lazania',
-    photo_url: 'https://images8.alphacoders.com/817/817353.jpg',
-    photosArray: [
-      'https://previews.123rf.com/images/somegirl/somegirl1509/somegirl150900048/46103208-top-view-of-a-delicious-traditional-italian-lasagna-made-with-minced-beef-bolognese-sauce-topped-wit.jpg',
-      'https://truffle-assets.imgix.net/87f324e4-YOUTUBE-NO-TXT.00_03_19_14.Imagen_fija001.jpg',
-      'https://images4.alphacoders.com/817/817350.jpg'
-    ],
-    time: 60,
-    ingredients: [
-      [36, '1 large'],
-      [25, '1 pound'],
-      [51, '5 cloves'],
-      [52, '1 pound'],
-      [53, '1 pound'],
-      [54, '1 28 ounce can'],
-      [23, '2 6 ounce can'],
-      [55, '2 tablespoons'],
-      [56, '1/4 cup'],
-      [10, '1/2 cup'],
-      [1, '1/2 teaspoons'],
-      [58, '1 teaspoon'],
-      [4, '1/4 teaspoons'],
-      [16, '1 large'],
-      [46, '1 pound'],
-      [48, '1 cup'],
-      [57, '30 ounces']
-    ],
-    description:
-      '-- Cook noodles according to package directions; drain. Meanwhile, in a Dutch oven, cook sausage, beef and onion over medium heat 8-10 minutes or until meat is no longer pink, breaking up meat into crumbles. Add garlic; cook 1 minute. Drain. Stir in tomatoes, tomato paste, water, sugar, 3 tablespoons parsley, basil, fennel, 1/2 teaspoon salt and pepper; bring to a boil. Reduce heat; simmer, uncovered, 30 minutes, stirring occasionally. In a small bowl, mix egg, ricotta cheese, and remaining parsley and salt. Preheat oven to 375°. Spread 2 cups meat sauce into an ungreased 13x9-in. baking dish. Layer with 3 noodles and a third of the ricotta mixture. Sprinkle with 1 cup mozzarella cheese and 2 tablespoons Parmesan cheese.\n\n -- Repeat layers twice. Top with remaining meat sauce and cheeses (dish will be full). Bake, covered, 25 minutes. Bake, uncovered, 25 minutes longer or until bubbly. Let stand 15 minutes before serving.'
+      '-- Add water, tea leaves, ginger, cardamom, and cinnamon to a pan and bring to a boil.\n\n -- Let it simmer for 3–4 minutes for the flavors to blend.\n\n -- Add milk and sugar, and bring the tea back to a boil.\n\n -- Strain the tea into cups and serve hot.'
   }
+  ,
+  {
+    recipeId: 136,
+    categoryId: 2,
+    title: 'Pani Puri',
+    photo_url: 'https://cdn1.foodviva.com/static-content/food-images/snacks-recipes/pani-puri/pani-puri.jpg',
+    photosArray: [
+      'https://www.cookclickndevour.com/wp-content/uploads/2020/12/pani-puri-2.jpg',
+      'https://www.vegrecipesofindia.com/wp-content/uploads/2021/01/pani-puri-2.jpg',
+      'https://www.archanaskitchen.com/images/archanaskitchen/1-Author/Pani-Puri-Recipe.jpg',
+      'https://www.tasteofhome.com/wp-content/uploads/2020/07/pani-puri.jpg',
+      'https://www.indianhealthyrecipes.com/wp-content/uploads/2020/03/pani-puri-indian-street-food.jpg'
+    ],
+    time: '30',
+    ingredients: [
+      [0, '1 cup'],
+      [1, '2 cups'],
+      [2, '1 tsp'],
+      [3, '1/4 tsp'],
+      [4, '2 tbsp'],
+      [5, '2 tbsp'],
+      [6, '2 tbsp'],
+      [7, '1 tbsp'],
+      [8, '1 tbsp']
+    ],
+    description:
+      '-- Prepare the pani by mixing mint, tamarind, spices, and water.\n\n -- Stuff the puris with potatoes, chickpeas, and the pani mixture.\n\n -- Serve immediately for a crispy, flavorful snack.'
+  }
+  ,
+  {
+    recipeId: 137,
+    categoryId: 2,
+    title: 'Bhakarwadi',
+    photo_url: 'https://www.harshaman.in/cdn/shop/products/Bhakarwadi_2048x.jpg?v=1664907967',
+    photosArray: [
+      'https://www.archanaskitchen.com/images/archanaskitchen/1-Author/Bhakarwadi-Recipe.jpg',
+      'https://www.indianhealthyrecipes.com/wp-content/uploads/2021/02/bhakarwadi-recipe-2.jpg',
+      'https://www.cookclickndevour.com/wp-content/uploads/2020/04/bhakarwadi-2.jpg',
+      'https://www.tasteofhome.com/wp-content/uploads/2021/10/bhakarwadi.jpg',
+      'https://www.vegrecipesofindia.com/wp-content/uploads/2020/10/bhakarwadi.jpg'
+    ],
+    time: '50',
+    ingredients: [
+      [0, '2 cups'],
+      [1, '1/4 tsp'],
+      [2, '1/4 tsp'],
+      [3, '1 tsp'],
+      [4, '2 tbsp'],
+      [5, '1 tsp'],
+      [6, '1/2 tsp'],
+      [7, '1/2 tsp'],
+      [8, '1 tbsp']
+    ],
+    description:
+      '-- Prepare the dough and rolling it into a flat sheet. Prepare the filling with spices and gram flour, and spread it on the sheet.\n\n -- Roll the sheet into a log, slice into pieces, and deep fry until crisp.\n\n -- Serve hot for a spicy, crunchy snack.'
+  }
+  
 ];
 
 export const ingredients = [

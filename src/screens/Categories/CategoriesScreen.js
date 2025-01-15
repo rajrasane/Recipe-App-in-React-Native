@@ -12,9 +12,10 @@ export default function CategoriesScreen(props) {
     navigation.setOptions({
       headerTitleStyle: {
         fontWeight: "bold",
-        textAlign: "center",
-        alignSelf: "center",
-        flex: 1,
+      },
+      headerTitleAlign: "center",
+      headerStyle: {
+        height: 100,
       },
       headerLeft: () => (
         <MenuImage
@@ -23,9 +24,9 @@ export default function CategoriesScreen(props) {
           }}
         />
       ),
-      headerRight: () => <View />,
+      headerRight: () => <View style={{ width: 40 }} />,
     });
-  }, []);
+  }, [navigation]);
 
   const onPressCategory = (item) => {
     const title = item.name;
@@ -34,7 +35,10 @@ export default function CategoriesScreen(props) {
   };
 
   const renderCategory = ({ item }) => (
-    <TouchableHighlight underlayColor="rgba(73,182,77,0.9)" onPress={() => onPressCategory(item)}>
+    <TouchableHighlight
+      underlayColor="rgba(73,182,77,0.9)"
+      onPress={() => onPressCategory(item)}
+    >
       <View style={styles.categoriesItemContainer}>
         <Image style={styles.categoriesPhoto} source={{ uri: item.photo_url }} />
         <Text style={styles.categoriesName}>{item.name}</Text>
@@ -44,8 +48,15 @@ export default function CategoriesScreen(props) {
   );
 
   return (
-    <View>
-      <FlatList data={categories} renderItem={renderCategory} keyExtractor={(item) => `${item.id}`} />
+    <View style={{ flex: 1, backgroundColor: "#fff" }}>
+      <FlatList
+        data={categories}
+        renderItem={renderCategory}
+        keyExtractor={(item) => `${item.id}`}
+        contentContainerStyle={{
+          paddingBottom: 20,
+        }}
+      />
     </View>
   );
 }

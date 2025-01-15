@@ -21,6 +21,9 @@ function MainNavigator() {
           fontWeight: 'bold',
         },
         headerTitleAlign: 'center',
+        headerStyle: {
+          height: 100,
+        },
       }}
     >
       <Stack.Screen name='Home' component={HomeScreen} />
