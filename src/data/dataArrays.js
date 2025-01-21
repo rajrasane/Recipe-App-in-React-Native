@@ -36,11 +36,7 @@ export const recipes = [
     title: 'Poha',
     photo_url: 'https://www.indianveggiedelight.com/wp-content/uploads/2022/07/poha-recipe-featured.jpg',
     photosArray: [
-      'https://www.tasty-indian-recipes.com/wp-content/uploads/2022/01/Poha-1.jpg',
-      'https://www.cookwithkushi.com/wp-content/uploads/2020/09/Poha-recipe.jpg',
-      'https://www.sanjeevkapoor.com/Uploads/Recipe/Poha.jpg',
-      'https://static.toiimg.com/thumb/msid-74752218,width-1280,height-720,quality-70,overlay-toi_swiggy/photo.jpg',
-      'https://www.vegrecipesofindia.com/wp-content/uploads/2020/03/poha-recipe-1.jpg'
+      
     ],
     time: '20',
     ingredients: [
@@ -61,11 +57,7 @@ export const recipes = [
     title: 'Masala Dosa',
     photo_url: 'https://www.cookwithmanali.com/wp-content/uploads/2020/05/Masala-Dosa.jpg',
     photosArray: [
-      'https://www.vegrecipesofindia.com/wp-content/uploads/2021/01/masala-dosa.jpg',
-      'https://www.cookwithkushi.com/wp-content/uploads/2021/03/masala-dosa-recipe.jpg',
-      'https://www.sanjeevkapoor.com/Uploads/Recipe/masala-dosa.jpg',
-      'https://static.toiimg.com/thumb/msid-84965153,width-800,height-600,quality-70,overlay-toi_swiggy/photo.jpg',
-      'https://www.tasty-indian-recipes.com/wp-content/uploads/2020/01/masala-dosa.jpg'
+      
     ],
     time: '45',
     ingredients: [
@@ -88,11 +80,7 @@ export const recipes = [
     title: 'Aloo Paratha',
     photo_url: 'https://pipingpotcurry.com/wp-content/uploads/2022/11/Aloo-Paratha-Piping-Pot-Curry.jpg',
     photosArray: [
-      'https://www.indianhealthyrecipes.com/wp-content/uploads/2022/01/aloo-paratha-recipe.jpg',
-      'https://www.cookwithkushi.com/wp-content/uploads/2021/11/aloo-paratha.jpg',
-      'https://static.toiimg.com/thumb/msid-74584673,width-800,height-600,quality-70,overlay-toi_swiggy/photo.jpg',
-      'https://www.archanaskitchen.com/images/archanaskitchen/1-Author/Aloo-Paratha-Recipe.jpg',
-      'https://www.tasty-indian-recipes.com/wp-content/uploads/2020/01/Stuffed-Aloo-Paratha.jpg'
+     
     ],
     time: '30',
     ingredients: [
@@ -116,11 +104,7 @@ export const recipes = [
     title: 'Upma',
     photo_url: 'https://rakskitchen.net/wp-content/uploads/2013/02/upma-recipe-feat.jpg',
     photosArray: [
-      'https://www.vegrecipesofindia.com/wp-content/uploads/2020/12/upma-recipe.jpg',
-      'https://www.tasty-indian-recipes.com/wp-content/uploads/2021/01/upma-recipe.jpg',
-      'https://www.sanjeevkapoor.com/Uploads/Recipe/upma.jpg',
-      'https://static.toiimg.com/thumb/msid-74821458,width-800,height-600,quality-70,overlay-toi_swiggy/photo.jpg',
-      'https://www.indianhealthyrecipes.com/wp-content/uploads/2022/01/upma-recipe-2.jpg'
+    
     ],
     time: '20',
     ingredients: [
@@ -142,11 +126,7 @@ export const recipes = [
     title: 'Chole (Chickpea Curry)',
     photo_url: 'https://www.cookwithmanali.com/wp-content/uploads/2023/04/Punjabi-Chole-Masala.jpg',
     photosArray: [
-      'https://www.indianhealthyrecipes.com/wp-content/uploads/2021/02/chole-recipe.jpg',
-      'https://www.cookwithkushi.com/wp-content/uploads/2021/05/chole.jpg',
-      'https://static.toiimg.com/thumb/msid-84238315,width-800,height-600,quality-70,overlay-toi_swiggy/photo.jpg',
-      'https://www.archanaskitchen.com/images/archanaskitchen/1-Author/Chole-recipe.jpg',
-      'https://www.tasty-indian-recipes.com/wp-content/uploads/2020/01/chole-recipe.jpg'
+    
     ],
     time: '40',
     ingredients: [
@@ -169,11 +149,7 @@ export const recipes = [
     title: 'Paneer Butter Masala',
     photo_url: 'https://j6e2i8c9.rocketcdn.me/wp-content/uploads/2020/12/Paneer-butter-masala-recipe-3.jpg',
     photosArray: [
-      'https://www.vegrecipesofindia.com/wp-content/uploads/2021/11/paneer-butter-masala-recipe-1.jpg',
-      'https://www.cookwithkushi.com/wp-content/uploads/2021/11/paneer-butter-masala.jpg',
-      'https://static.toiimg.com/thumb/msid-74730346,width-800,height-600,quality-70,overlay-toi_swiggy/photo.jpg',
-      'https://www.archanaskitchen.com/images/archanaskitchen/1-Author/PANEER-BUTTER-MASALA-RECIPE.jpg',
-      'https://www.tasty-indian-recipes.com/wp-content/uploads/2020/01/paneer-butter-masala.jpg'
+    
     ],
     time: '35',
     ingredients: [
@@ -198,11 +174,7 @@ export const recipes = [
     title: 'Gulab Jamun',
     photo_url: 'https://5.imimg.com/data5/SELLER/Default/2024/2/384944363/DN/MV/KT/144303146/gulab-jamun-desi-ghee-500x500.jpg',
     photosArray: [
-      'https://www.cookwithkushi.com/wp-content/uploads/2021/06/gulab-jamun-recipe.jpg',
-      'https://static.toiimg.com/thumb/msid-83683932,width-800,height-600,quality-70,overlay-toi_swiggy/photo.jpg',
-      'https://www.archanaskitchen.com/images/archanaskitchen/1-Author/Gulab-Jamun-Recipe.jpg',
-      'https://www.indianhealthyrecipes.com/wp-content/uploads/2021/02/gulab-jamun-recipe.jpg',
-      'https://www.tasty-indian-recipes.com/wp-content/uploads/2020/01/gulab-jamun.jpg'
+    
     ],
     time: '30',
     ingredients: [
@@ -225,11 +197,7 @@ export const recipes = [
     title: 'Samosa',
     photo_url: 'https://www.indianhealthyrecipes.com/wp-content/uploads/2021/12/samosa-recipe.jpg',
     photosArray: [
-      'https://www.indianhealthyrecipes.com/wp-content/uploads/2021/12/samosa-recipe-2.jpg',
-      'https://www.archanaskitchen.com/images/archanaskitchen/1-Author/Samosa-Recipe.jpg',
-      'https://www.cookclickndevour.com/wp-content/uploads/2020/01/samosa-recipe-2.jpg',
-      'https://www.vegrecipesofindia.com/wp-content/uploads/2020/10/vegetable-samosa.jpg',
-      'https://www.tasteofhome.com/wp-content/uploads/2021/09/samosa.jpg'
+    
     ],
     time: '45',
     ingredients: [
@@ -252,11 +220,7 @@ export const recipes = [
     title: 'Masala Chai',
     photo_url: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9r1c8ZjN_5Z1jvOvnKxQyemwbOXLZA6XVcw&s',
     photosArray: [
-      'https://www.indianhealthyrecipes.com/wp-content/uploads/2021/11/masala-chai-recipe-1.jpg',
-      'https://www.archanaskitchen.com/images/archanaskitchen/1-Author/Masala-Chai-Recipe.jpg',
-      'https://www.cookwithkushi.com/wp-content/uploads/2021/07/masala-chai.jpg',
-      'https://www.cookclickndevour.com/wp-content/uploads/2020/01/masala-chai-recipe-3.jpg',
-      'https://www.tasteofhome.com/wp-content/uploads/2021/09/Chai_Tea_FTR.jpg'
+    
     ],
     time: '10',
     ingredients: [
@@ -280,11 +244,7 @@ export const recipes = [
     title: 'Pani Puri',
     photo_url: 'https://cdn1.foodviva.com/static-content/food-images/snacks-recipes/pani-puri/pani-puri.jpg',
     photosArray: [
-      'https://www.cookclickndevour.com/wp-content/uploads/2020/12/pani-puri-2.jpg',
-      'https://www.vegrecipesofindia.com/wp-content/uploads/2021/01/pani-puri-2.jpg',
-      'https://www.archanaskitchen.com/images/archanaskitchen/1-Author/Pani-Puri-Recipe.jpg',
-      'https://www.tasteofhome.com/wp-content/uploads/2020/07/pani-puri.jpg',
-      'https://www.indianhealthyrecipes.com/wp-content/uploads/2020/03/pani-puri-indian-street-food.jpg'
+    
     ],
     time: '30',
     ingredients: [
@@ -308,11 +268,7 @@ export const recipes = [
     title: 'Bhakarwadi',
     photo_url: 'https://www.harshaman.in/cdn/shop/products/Bhakarwadi_2048x.jpg?v=1664907967',
     photosArray: [
-      'https://www.archanaskitchen.com/images/archanaskitchen/1-Author/Bhakarwadi-Recipe.jpg',
-      'https://www.indianhealthyrecipes.com/wp-content/uploads/2021/02/bhakarwadi-recipe-2.jpg',
-      'https://www.cookclickndevour.com/wp-content/uploads/2020/04/bhakarwadi-2.jpg',
-      'https://www.tasteofhome.com/wp-content/uploads/2021/10/bhakarwadi.jpg',
-      'https://www.vegrecipesofindia.com/wp-content/uploads/2020/10/bhakarwadi.jpg'
+    
     ],
     time: '50',
     ingredients: [
